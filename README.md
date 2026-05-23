@@ -1,10 +1,28 @@
 # 🅿️ PARKit - Parking Management System
 
-PARKit is a full-stack **MERN Stack Parking Management System** designed to help users search parking locations, book parking spaces, make secure online payments, and download invoices.
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?style=for-the-badge&logo=mongodb)
+![Express](https://img.shields.io/badge/Express.js-Backend-black?style=for-the-badge&logo=express)
+![React](https://img.shields.io/badge/React.js-Frontend-blue?style=for-the-badge&logo=react)
+![Node](https://img.shields.io/badge/Node.js-Server-green?style=for-the-badge&logo=node.js)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)
+![Status](https://img.shields.io/badge/Project-Live-success?style=for-the-badge)
+
+---
+
+## 📌 Project Overview
+
+**PARKit - Parking Management System** is a full-stack **MERN Stack Parking Management System** designed to help users search parking locations, book parking spaces, make secure online payments, and download invoices.
 
 The system also provides a complete **Admin Dashboard** to manage parking locations, bookings, users, payments, reports, and parking availability.
 
 This project is built as a full-stack application with real-world features like **JWT Authentication, Role-Based Access, Cloudinary Image Upload, Razorpay Payment Integration, Invoice Generation, Admin Reports, and Fully Responsive UI**.
+
+---
+
+## 🌐 Live Demo
+
+🔗 **Live Project Link:**  
+👉 [Click Here to View Live Project](https://parkit-parking-management-system.vercel.app/)
 
 ---
 
@@ -69,6 +87,13 @@ This project is built as a full-stack application with real-world features like 
 - Cloudinary
 - Razorpay
 - Nodemailer
+
+### ☁️ Deployment & Services
+
+- Vercel
+- MongoDB Atlas
+- Cloudinary
+- Razorpay
 
 ---
 
@@ -159,8 +184,8 @@ Parking-Management-System/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/aryanheree/parkit-parking-management-system.git
-cd parkit-parking-management-system
+git clone https://github.com/aryangupta658/Parking-Management-System.git
+cd Parking-Management-System
 ```
 
 ---
@@ -232,7 +257,29 @@ cd ../frontend
 npm install
 ```
 
-### 6️⃣ Run Frontend
+### 6️⃣ Create Frontend Environment File
+
+Create a `.env` file inside the `frontend` folder:
+
+```bash
+touch .env
+```
+
+Add your backend API URL:
+
+```env
+VITE_API_URL=http://localhost:5000
+VITE_RAZORPAY_KEY_ID=your_razorpay_key_id
+```
+
+For deployed frontend, use your deployed backend URL:
+
+```env
+VITE_API_URL=your_deployed_backend_url
+VITE_RAZORPAY_KEY_ID=your_razorpay_key_id
+```
+
+### 7️⃣ Run Frontend
 
 ```bash
 npm run dev
@@ -322,36 +369,6 @@ GET    /api/admin/reports
 
 ---
 
-## 📸 Screenshots
-
-Add your project screenshots here after uploading them to GitHub.
-
-```md
-![Landing Page](screenshots/landing.png)
-![Login Page](screenshots/login.png)
-![User Dashboard](screenshots/user-dashboard.png)
-![Find Parking](screenshots/find-parking.png)
-![Admin Dashboard](screenshots/admin-dashboard.png)
-![Admin Reports](screenshots/admin-reports.png)
-```
-
-Recommended screenshots to add:
-
-```txt
-Landing Page
-Login Page
-Signup Page
-Find Parking Page
-My Bookings Page
-Payments Page
-Admin Dashboard
-Manage Slots Page
-Admin Reports Page
-Mobile Responsive View
-```
-
----
-
 ## 🔐 Environment Variables
 
 The project uses environment variables for secure configuration.
@@ -363,6 +380,7 @@ Use `.env.example` to show required variables.
 ```txt
 backend/.env          should not be pushed
 backend/.env.example  should be pushed
+frontend/.env         should not be pushed
 ```
 
 ---
@@ -375,6 +393,7 @@ backend/.env.example  should be pushed
 - Sensitive keys are stored in environment variables.
 - `.env` file is ignored using `.gitignore`.
 - Cloudinary API keys and Razorpay secrets are not exposed publicly.
+- Role-based access is used for protected admin features.
 
 ---
 
@@ -390,6 +409,19 @@ backend/.env.example  should be pushed
 - Multiple parking slot booking
 - Responsive and mobile-friendly UI
 - Charts and reports for admin
+- Live deployed frontend
+
+---
+
+## 🚀 Deployment Status
+
+✅ Project deployed successfully on Vercel.
+
+🔗 Live Link:
+
+```txt
+https://parkit-parking-management-system.vercel.app/
+```
 
 ---
 
@@ -402,7 +434,8 @@ backend/.env.example  should be pushed
 - Add email invoice after successful payment
 - Add admin analytics by month
 - Add parking rating and reviews
-- Deploy frontend and backend online
+- Add advanced search and filtering
+- Add dark mode support
 
 ---
 
@@ -410,10 +443,30 @@ backend/.env.example  should be pushed
 
 **Aryan Gupta**
 
-GitHub: [@aryanheree](https://github.com/aryanheree)
+GitHub: [@aryangupta658](https://github.com/aryangupta658)
 
 ---
 
 ## ✅ Project Status
 
-Completed for academic, portfolio, and resume purpose.
+✅ Project Completed  
+✅ Frontend Developed  
+✅ Backend Developed  
+✅ Admin Dashboard Created  
+✅ User Dashboard Created  
+✅ JWT Authentication Added  
+✅ Role-Based Access Added  
+✅ Cloudinary Image Upload Added  
+✅ Razorpay Payment Integration Added  
+✅ Invoice Download Feature Added  
+✅ Reports and Charts Added  
+✅ Fully Responsive UI Added  
+✅ Project Successfully Deployed on Vercel
+
+---
+
+## ⭐ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub.
+
+---
